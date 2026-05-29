@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/heartbeat.php", "destination": "/api/heartbeat" },
+    { "source": "/online_count.php", "destination": "/api/online" }
+  ]
+}
