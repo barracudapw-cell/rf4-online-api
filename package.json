@@ -1,5 +1,8 @@
 {
   "name": "rf4-online-api",
   "version": "1.0.0",
-  "main": "api/online.js"
+  "type": "module",
+  "dependencies": {
+    "@vercel/kv": "^1.0.1"
+  }
 }
